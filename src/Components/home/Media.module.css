@@ -27,6 +27,9 @@
     margin-top: -100px;
     object-fit: contain;
 }
+.video {
+    border-radius: 40px;
+}
 
 /* .media_icon{
     position: absolute;
