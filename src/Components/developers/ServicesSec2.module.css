@@ -1,0 +1,112 @@
+.Cta_section {
+  margin: 6rem 2rem;
+}
+.container {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #060720;
+  border-radius: 40px;
+  padding: 2rem 2rem;
+}
+.container2 {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #060720;
+  border-radius: 40px;
+  padding: 2rem 2rem;
+}
+.cta_left {
+  width: 55%;
+}
+/* .cta_right{
+    width: 40%;
+    
+} */
+.container h1 {
+  color: #ffffff;
+  font-size: 42px;
+  font-weight: 600;
+  text-transform: capitalize;
+  margin-bottom: 1.5rem;
+  font-family: Poppins;
+}
+.container p {
+  color: #ffffff;
+  font-size: 16px;
+  font-family: 400;
+  font-family: Euclid Circular B;
+  line-height: 26px;
+  padding-bottom: 2rem;
+}
+.container2 h1 {
+  color: #ffffff;
+  font-size: 42px;
+  font-weight: 600;
+  text-transform: capitalize;
+  margin-bottom: 1.5rem;
+  font-family: Poppins;
+}
+.container2 p {
+  color: #ffffff;
+  font-size: 16px;
+  font-family: 400;
+  font-family: Euclid Circular B;
+  line-height: 26px;
+  padding-bottom: 2rem;
+}
+.cta_btn {
+  background-color: #0097a7;
+  color: #ffffff;
+  border-radius: 100px;
+  border: 1px solid #0097a7;
+  width: 12rem;
+  height: 3rem;
+}
+.cta_btn:hover {
+  background-color: transparent;
+  color: #fff !important;
+  border-color: #0097a7 !important;
+}
+@media only screen and (max-width: 768px) {
+  .container {
+    flex-direction: column-reverse;
+    width: auto;
+    padding: 2rem 1.5rem;
+    border-radius: 0;
+  }
+  .container2 {
+    flex-direction: column-reverse;
+    width: auto;
+    padding: 2rem 1.5rem;
+    border-radius: 0;
+  }
+  .cta_left {
+    width: 100%;
+  }
+  .Cta_section {
+    margin: 0;
+  }
+  .container h1 {
+    font-size: 32px;
+  }
+  .container p {
+    font-size: 14px;
+  }
+  .container2 h1 {
+    font-size: 32px;
+  }
+  .container2 p {
+    font-size: 14px;
+  }
+  .cta_img {
+    width: 100%;
+    object-fit: contain;
+  }
+}

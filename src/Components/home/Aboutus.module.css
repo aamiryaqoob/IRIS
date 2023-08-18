@@ -1,0 +1,73 @@
+.Aboutus_section {
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 4rem;
+}
+.container {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  background-color: #fafbfc;
+  border-radius: 40px;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 1rem;
+}
+.container h1 {
+  font-family: GD Sage;
+  font-size: 32px;
+  font-weight: 700;
+  color: #000000;
+  line-height: 5px;
+}
+.aboutp {
+  font-family: Euclid Circular B;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #000000;
+}
+.about_company {
+  display: flex;
+  gap: 2rem;
+}
+.p1 {
+  color: #000000;
+  padding: 18px 24px;
+  border-radius: 100px;
+  border: 1px solid #000000;
+}
+.p2 {
+  color: #000000;
+  padding: 18px 24px;
+  border-radius: 8px;
+  border: 1px solid #000000;
+}
+.p3 {
+  color: #000000;
+  padding: 18px 24px;
+  border-radius: 100px;
+  border: 1px solid #000000;
+}
+.p4 {
+  color: #000000;
+  padding: 18px 24px;
+  border-radius: 8px;
+  border: 1px solid #000000;
+}
+.span {
+  font-weight: bold;
+}
+@media only screen and (max-width: 768px) {
+  .about_company {
+    flex-direction: column;
+  }
+  .container {
+    padding-left: 0;
+    padding: 2rem 1.5rem;
+    border-radius: 0;
+    width: auto;
+  }
+}

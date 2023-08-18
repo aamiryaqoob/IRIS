@@ -1,0 +1,73 @@
+.Aboutus_section {
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 4rem;
+}
+.container {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  background-color: #1f2224;
+  border-radius: 40px;
+  padding-top: 46px;
+  padding-bottom: 46px;
+  padding-left: 2rem;
+}
+.container h1 {
+  font-family: GD Sage;
+  font-size: 32px;
+  font-weight: 700;
+  color: #dcf2f4;
+  line-height: 5px;
+}
+.aboutp {
+  font-family: Euclid Circular B;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #dcf2f4;
+}
+.about_company {
+  display: flex;
+  gap: 2rem;
+}
+.p1 {
+  color: #dcf2f4;
+  padding: 18px 24px;
+  border-radius: 100px;
+  border: 1px solid #dcf2f4;
+}
+.p2 {
+  color: #dcf2f4;
+  padding: 18px 24px;
+  border-radius: 8px;
+  border: 1px solid #dcf2f4;
+}
+.p3 {
+  color: #dcf2f4;
+  padding: 18px 24px;
+  border-radius: 100px;
+  border: 1px solid #dcf2f4;
+}
+.p4 {
+  color: #dcf2f4;
+  padding: 18px 24px;
+  border-radius: 8px;
+  border: 1px solid #dcf2f4;
+}
+.span {
+  font-weight: bold;
+}
+@media only screen and (max-width: 768px) {
+  .about_company {
+    flex-direction: column;
+  }
+  .container {
+    padding-left: 0;
+    padding: 2rem 1.5rem;
+    width: auto;
+    border-radius: 0;
+  }
+}

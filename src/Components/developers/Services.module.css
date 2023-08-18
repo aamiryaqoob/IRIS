@@ -1,0 +1,78 @@
+
+.container {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 1.5rem;
+  background-color: #fafbfc;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 1rem;
+}
+.container h1 {
+  font-family: GD Sage;
+  font-size: 42px;
+  font-weight: 700;
+  color: #000000;
+  line-height: 5px;
+}
+.aboutp {
+  font-family: Euclid Circular B;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #000000;
+}
+.about_company {
+  display: flex;
+  justify-content: space-between;
+  width: 75%;
+}
+.p1 {
+  color: #000;
+  font-family: Euclid Circular B;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 177.1%;
+  
+}
+.p2 {
+  color: #000000;
+  padding: 18px 24px;
+  border-radius: 8px;
+  
+}
+.p3 {
+  color: #000000;
+  padding: 18px 24px;
+  border-radius: 100px;
+  
+}
+.p4 {
+  color: #000000;
+  padding: 18px 24px;
+  border-radius: 8px;
+  
+}
+.span {
+  color: #000;
+font-family: Euclid Circular B;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 177.1%; /* 85.008px */
+}
+@media only screen and (max-width: 768px) {
+  .about_company {
+    flex-direction: column;
+  }
+  .container {
+    padding-left: 0;
+    padding: 2rem 1.5rem;
+    border-radius: 0;
+    width: auto;
+  }
+}

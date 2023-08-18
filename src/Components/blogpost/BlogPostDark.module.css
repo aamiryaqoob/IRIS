@@ -1,0 +1,46 @@
+.media_section {
+  width: 100%;
+  margin: auto;
+  background-color: #1f2224;
+  padding-bottom: 2rem;
+  z-index: 1;
+  margin-bottom: 10rem;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img_div {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.media_img {
+  width: 100%;
+  width: 100%;
+  z-index: 2;
+  margin-top: -100px;
+  object-fit: contain;
+}
+
+.media_icon {
+  position: absolute;
+  top: 90%;
+  z-index: 3;
+}
+@media only screen and (max-width: 768px) {
+  .media_img {
+    margin-top: 0px;
+  }
+  .icon_div {
+    flex-direction: column;
+  }
+  .icon_div h1 {
+    font-size: 24px;
+  }
+  .share {
+    font-size: 18px;
+  }
+}

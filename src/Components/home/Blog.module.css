@@ -1,0 +1,127 @@
+.container {
+  width: 90%;
+  margin: auto;
+}
+.card_div {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  align-items: center;
+  gap: 2rem;
+  padding: 45px 0;
+}
+.card1 {
+  background-color: #fafbfc;
+  border-radius: 16px;
+  padding: 0 1rem;
+}
+.title {
+  margin-bottom: 10px;
+}
+.card1 h1 {
+  color: #000000;
+  font-weight: 700;
+  font-size: 24px;
+  font-family: Poppins;
+}
+.card1 p {
+  color: #000000;
+  font-weight: 400;
+  font-size: 16px;
+  font-family: Euclid Circular B;
+}
+.card2 {
+  width: 400px;
+  height: 400px;
+  background-color: #fafbfc;
+  border-radius: 16px;
+  padding: 0 1rem;
+}
+
+.card2 h1 {
+  color: #000000;
+  font-weight: 700;
+  font-size: 24px;
+  font-family: Poppins;
+}
+.card2 p {
+  color: #000000;
+  font-weight: 400;
+  font-size: 16px;
+  font-family: Euclid Circular B;
+}
+.card3 {
+  position: relative;
+  background-color: #fafbfc;
+  border-radius: 16px;
+  cursor: pointer;
+}
+
+.card3 h1 {
+  color: #000000;
+  font-weight: 700;
+  font-size: 24px;
+  font-family: Poppins;
+}
+.card3 p {
+  color: #000000;
+  font-weight: 400;
+  width: 80%;
+  font-size: 16px;
+  font-family: Euclid Circular B;
+}
+.arrow1 {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 1rem;
+  margin-bottom: 15rem;
+}
+.arrow2 {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 1rem;
+  margin-bottom: 15rem;
+}
+.arrow3 {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 1rem;
+  top: 0;
+  left: 90%;
+  position: absolute;
+}
+.circle1 {
+  height: 50px;
+  width: 50px;
+  border-radius: 360px;
+  background-color: #000000;
+}
+.content {
+  padding-left: 0rem;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 12px;
+  margin-bottom: 58px;
+}
+/* .main{
+    display: flex;
+} */
+.main2 {
+  display: flex;
+}
+
+@media only screen and (max-width: 768px) {
+   .container {
+    padding-top: 2rem;
+   }
+   .card_div {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 10px;
+    align-items: center;
+    gap: 2rem;
+    padding: 45px 0;
+  }
+  }
+  

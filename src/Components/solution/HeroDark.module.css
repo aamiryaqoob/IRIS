@@ -1,0 +1,39 @@
+.first_sec {
+    margin-bottom: 10rem;
+  }
+  .Letstalk {
+    text-align: center;
+  }
+  .Letstalk h1 {
+    width: 80%;
+    margin: auto;
+    color: #dcf2f4;
+    font-family: "Poppins";
+    font-size: 48px;
+    font-weight: 600;
+    padding: 3rem 0 1rem 0;
+  }
+  .Letstalk_btn {
+    background-color: #0097a7;
+    border-radius: 100px;
+    border: 1px solid #0097a7;
+    color: #ffffff;
+    font-size: 16px;
+    font-family: "Euclid Circular B";
+    width: 6rem;
+    height: 3rem;
+  }
+  .Letstalk_btn:hover {
+    background-color: transparent;
+    color: #dcf2f4 !important;
+    border-color: #0097a7 !important;
+  }
+  @media only screen and (max-width: 768px) {
+    .Letstalk h1 {
+      font-size: 32px;
+    }
+    .first_sec {
+      margin-bottom: 10rem;
+    }
+  }
+  

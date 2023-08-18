@@ -1,0 +1,69 @@
+.footer {
+  width: 100%;
+  margin: auto;
+  padding: 0;
+  overflow: hidden;
+  box-sizing: border-box;
+  background-color: #1f2224;
+  border-radius: 56px 56px 0px 0px;
+}
+.container {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  gap: 8rem;
+}
+.container h3 {
+  color: #dcf2f4;
+  font-family: Euclid Circular B;
+  font-weight: 500;
+}
+.container p {
+  color: #dcf2f4;
+  font-size: 14px;
+  font-family: Euclid Circular B;
+  font-weight: 400;
+}
+.contact_div p {
+  font-weight: 400;
+  font-family: Montserrat;
+  font-size: 14px;
+  line-height: 20px;
+}
+.contact_info {
+  text-decoration: underline;
+}
+.hr {
+  background-color: #fffefe3a;
+  width: 100%;
+}
+.subfooter {
+  width: 90%;
+  height: 2rem;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  gap: 16rem;
+  padding: 0.5rem 0;
+}
+.subfooter p {
+  color: #dcf2f4;
+  font-size: 12px;
+  font-family: Poppins;
+  font-weight: 600;
+}
+@media only screen and (max-width: 768px) {
+  .footer {
+    border-radius: 0;
+  }
+  .container {
+    width: 90%;
+    margin: auto;
+    display: grid;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    gap: 8rem;
+  }
+}
